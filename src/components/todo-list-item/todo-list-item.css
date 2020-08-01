@@ -1,0 +1,35 @@
+.todo-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.todo-list-item-text {
+    color: #000;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/* start - active classNames adding in component */
+.todo-list-item-done {
+    text-decoration: line-through;
+    transform: translateX(10px);
+}
+
+.todo-list-item-important {
+    color: #28a745;
+}
+/* end */
+
+.todo-list-buttons {
+    display: flex;
+    /* flex-wrap: nowrap; */
+}
+
+.todo-list-buttons button:first-child {
+    padding-left: 16px;
+    padding-right: 16px;
+}

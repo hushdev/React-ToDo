@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+    .search-panel input {
+        margin-bottom: 1rem;
+    }
+}
