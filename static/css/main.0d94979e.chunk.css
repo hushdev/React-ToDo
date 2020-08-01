@@ -1,0 +1,2 @@
+@media (max-width:767px){.search-panel input{margin-bottom:1rem}}.todo-list-item{display:flex;justify-content:space-between;align-items:center;width:100%}.todo-list-item-text{color:#000;font-size:20px;letter-spacing:1.5px;cursor:pointer;transition:.3s}.todo-list-item-done{text-decoration:line-through;transform:translateX(10px)}.todo-list-item-important{color:#28a745}.todo-list-buttons{display:flex}.todo-list-buttons button:first-child{padding-left:16px;padding-right:16px}
+/*# sourceMappingURL=main.0d94979e.chunk.css.map */
